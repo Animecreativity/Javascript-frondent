@@ -1,4 +1,4 @@
-User("hatsunemiku2007"); здесь нету защиты typrscript 
+User("hatsunemiku2007"); здесь нету защиты typescript 
 password(123456789);
 function User() {
     console.log("hatsunemiku2007");
