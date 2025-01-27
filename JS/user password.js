@@ -1,6 +1,5 @@
-User();
-password();
-
+User("hatsunemiku2007");
+password(123456789);
 function User() {
     console.log("hatsunemiku2007");
 
