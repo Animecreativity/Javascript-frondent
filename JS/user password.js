@@ -1,4 +1,4 @@
-User("hatsunemiku2007"); // здесь пишите логин 
+User("hatsunemiku2007"); // здесь пишите логин   это без защиты typescript 
 password(123456789); // пишем пароль
 
 
