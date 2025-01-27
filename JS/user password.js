@@ -1,11 +1,14 @@
-User("hatsunemiku2007"); здесь нету защиты typescript 
-password(123456789);
-function User() {
-    console.log("hatsunemiku2007");
-
-}
-function password() {
-    console.log(123456789);
-}
+User("hatsunemiku2007"); // здесь пишите логин 
+password(123456789); // пишем пароль
 
 
+function User() { // данные
+    console.log("hatsunemiku2007"); //  здесь пишет логин
+};
+setTimeout(() => {
+   console.log(User.name) // в сервер передаёт данные
+   console.log(password.name) // в сервер передаёт данные
+},  3000);
+function password() {  
+    console.log(123456789); // пишет пароль
+};
